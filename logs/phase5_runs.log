@@ -1,0 +1,24 @@
+[2026-08-30T15:15:08] tools=check_faq
+  Q: What's the daily ATM withdrawal limit?
+  A: The standard daily ATM withdrawal limit for debit cards is EUR 1,000. If you need information about a different card type or have other questions, feel free to ask!
+[2026-08-30T15:15:12] tools=get_account_summary
+  Q: Can you give me a summary of account ACC1001?
+  A: The account ACC1001 is a Savings account with a balance of EUR 4520.30 and it is currently active. Is there anything else you would like to know about this account?
+[2026-08-30T15:15:19] tools=get_account_summary, escalate_to_human
+  Q: What's the balance on account ACC9999?
+  A: I could not find the account ACC9999 in our system. I have escalated this issue to a human relationship manager who will assist you further. Is there anything else I can help you with?
+[2026-08-30T15:15:23] tools=escalate_to_human
+  Q: Please transfer 500 euros from ACC1001 to my friend's account.
+  A: I have escalated your request to a human relationship manager who will assist you with the transfer. Is there anything else I can help you with?
+[2026-08-30T19:31:09] tools=check_faq
+  Q: What's the daily ATM withdrawal limit?
+  A: The standard daily ATM withdrawal limit for debit cards is EUR 1,000. If you have any other questions or need details about a specific card, feel free to ask!
+[2026-08-30T19:31:13] tools=get_account_summary
+  Q: Can you give me a summary of account ACC1001?
+  A: The account ACC1001 is a Savings account with a balance of EUR 4520.30 and it is currently active. Is there anything else you would like to know?
+[2026-08-30T19:31:20] tools=get_account_summary, escalate_to_human
+  Q: What's the balance on account ACC9999?
+  A: I could not find an account with ID ACC9999. I have escalated this issue to a human relationship manager who will assist you further. Is there anything else I can help you with?
+[2026-08-30T19:31:24] tools=escalate_to_human
+  Q: Please transfer 500 euros from ACC1001 to my friend's account.
+  A: I have escalated your request to a human relationship manager who will assist you with the transfer. If you have any other questions or need assistance, feel free to ask!

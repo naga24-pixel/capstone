@@ -1,0 +1,48 @@
+[2026-08-30T15:08:34] intent=atm_limit
+  Q: What's the daily ATM withdrawal limit on my debit card?
+  A: Your standard daily ATM withdrawal limit is set by your card tier and account type. Please check your card's terms and conditions or contact support to confirm the exact figure for your account.
+[2026-08-30T15:08:34] intent=credit_limit_increase
+  Q: Can you increase my credit limit?
+  A: REFUSED: I can't approve or process credit limit changes. This requires a formal review — please submit a credit limit request through the banking app or speak with a representative.
+[2026-08-30T15:08:34] intent=dispute_transaction
+  Q: How do I dispute a transaction?
+  A: To dispute a transaction: open the transaction in your statement, select 'Report a problem', and follow the prompts. Disputes are typically resolved within 10 business days.
+[2026-08-30T15:08:34] intent=money_transfer
+  Q: Transfer €500 to my friend's account
+  A: REFUSED: I can't initiate or advise on money transfers. Please use the official transfer feature in your banking app, which includes the required verification steps.
+[2026-08-30T15:08:34] intent=account_access
+  Q: Is my account frozen? I can't log in.
+  A: ESCALATED: Account access issues can indicate a security concern. I'm escalating this to a human representative rather than guessing — they'll verify your identity and resolve it securely.
+[2026-08-30T15:08:34] intent=fallback
+  Q: How much cash can I take out per day from a machine?
+  A: ESCALATED: I don't have a matching rule for that request, so I can't answer confidently. Escalating to a human representative rather than guessing.
+[2026-08-30T15:08:34] intent=dispute_transaction
+  Q: I want to dispute a charge and also transfer money to my sister
+  A: To dispute a transaction: open the transaction in your statement, select 'Report a problem', and follow the prompts. Disputes are typically resolved within 10 business days.
+[2026-08-30T15:09:07] intent=fallback
+  Q: I want to withdraw 50000 Rupees. Is it allowed?
+  A: ESCALATED: I don't have a matching rule for that request, so I can't answer confidently. Escalating to a human representative rather than guessing.
+[2026-08-30T19:11:25] intent=atm_limit
+  Q: What's the daily ATM withdrawal limit on my debit card?
+  A: Your standard daily ATM withdrawal limit is set by your card tier and account type. Please check your card's terms and conditions or contact support to confirm the exact figure for your account.
+[2026-08-30T19:11:25] intent=credit_limit_increase
+  Q: Can you increase my credit limit?
+  A: REFUSED: I can't approve or process credit limit changes. This requires a formal review — please submit a credit limit request through the banking app or speak with a representative.
+[2026-08-30T19:11:25] intent=dispute_transaction
+  Q: How do I dispute a transaction?
+  A: To dispute a transaction: open the transaction in your statement, select 'Report a problem', and follow the prompts. Disputes are typically resolved within 10 business days.
+[2026-08-30T19:11:25] intent=money_transfer
+  Q: Transfer €500 to my friend's account
+  A: REFUSED: I can't initiate or advise on money transfers. Please use the official transfer feature in your banking app, which includes the required verification steps.
+[2026-08-30T19:11:25] intent=account_access
+  Q: Is my account frozen? I can't log in.
+  A: ESCALATED: Account access issues can indicate a security concern. I'm escalating this to a human representative rather than guessing — they'll verify your identity and resolve it securely.
+[2026-08-30T19:11:25] intent=fallback
+  Q: How much cash can I take out per day from a machine?
+  A: ESCALATED: I don't have a matching rule for that request, so I can't answer confidently. Escalating to a human representative rather than guessing.
+[2026-08-30T19:11:25] intent=dispute_transaction
+  Q: I want to dispute a charge and also transfer money to my sister
+  A: To dispute a transaction: open the transaction in your statement, select 'Report a problem', and follow the prompts. Disputes are typically resolved within 10 business days.
+[2026-08-30T19:14:52] intent=fallback
+  Q: q
+  A: ESCALATED: I don't have a matching rule for that request, so I can't answer confidently. Escalating to a human representative rather than guessing.

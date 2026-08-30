@@ -1,0 +1,69 @@
+[2026-08-30T15:10:12] session=demo-user
+  Q: What's the daily ATM withdrawal limit on my debit card?
+  A: I don't know based on the available information. I recommend checking your account details in the official banking app or contacting a human representative for assistance with your specific debit card withdrawal limit.
+[2026-08-30T15:10:14] session=demo-user
+  Q: Can you increase my credit limit?
+  A: I cannot assist with increasing your credit limit. Please use the official banking app or contact a human representative for help with this request.
+[2026-08-30T15:10:15] session=demo-user
+  Q: How do I dispute a transaction?
+  A: To dispute a transaction, please follow these steps:
+
+1. **Review Your Statement**: Identify the specific transaction you wish to dispute.
+2. **Contact Customer Service**: Reach out to our customer service team through the official banking app or by phone.
+3. **Provide Details**: Be ready to provide information about the transaction, including the date, amount, and reason for the dispute.
+
+If you need further assistance, please contact a human representative.
+[2026-08-30T15:10:16] session=demo-user
+  Q: Transfer €500 to my friend's account
+  A: I cannot assist with executing or approving money transfers. Please use the official banking app or contact a human representative for help with this transaction.
+[2026-08-30T15:10:17] session=demo-user
+  Q: Is my account frozen? I can't log in.
+  A: I don't know based on the available information. This query is being escalated to a human representative for further assistance regarding your account access issues.
+[2026-08-30T15:10:18] session=demo-user
+  Q: How much cash can I take out per day from a machine?
+  A: I don't know based on the available information. I recommend checking your account details in the official banking app or contacting a human representative for assistance with your specific ATM withdrawal limit.
+[2026-08-30T15:10:19] session=demo-user
+  Q: I want to dispute a charge and also transfer money to my sister
+  A: To address your requests:
+
+1. **Dispute a Charge**: Please review your statement for the transaction details and contact our customer service team through the official banking app or by phone. They will guide you through the dispute process.
+
+2. **Transfer Money to Your Sister**: I cannot assist with executing or approving money transfers. Please use the official banking app or contact a human representative for help with this transaction.
+
+If you need further assistance, please reach out to a human representative.
+[2026-08-30T15:10:52] session=demo-user
+  Q: I want to withdraw 40000 Rupees. Is it allowed?
+  A: I don't know based on the available information regarding your specific account limits. I recommend checking your account details in the official banking app or contacting a human representative for assistance with your withdrawal limits.
+[2026-08-30T19:17:08] session=demo-user
+  Q: What's the daily ATM withdrawal limit on my debit card?
+  A: I don't know based on the available information. I recommend checking your account details in the official banking app or contacting a human representative for assistance with your specific debit card withdrawal limit.
+[2026-08-30T19:17:09] session=demo-user
+  Q: Can you increase my credit limit?
+  A: I cannot assist with increasing your credit limit. Please use the official banking app or contact a human representative for help with this request.
+[2026-08-30T19:17:10] session=demo-user
+  Q: How do I dispute a transaction?
+  A: To dispute a transaction, please follow these steps:
+
+1. **Review Your Statement**: Identify the specific transaction you wish to dispute.
+2. **Contact Customer Service**: Reach out to our customer service team through the official banking app or by phone.
+3. **Provide Details**: Be ready to provide information about the transaction, including the date, amount, and reason for the dispute.
+
+If you need further assistance, please contact a human representative.
+[2026-08-30T19:17:11] session=demo-user
+  Q: Transfer €500 to my friend's account
+  A: I cannot assist with executing or approving money transfers. Please use the official banking app or contact a human representative for help with this transaction.
+[2026-08-30T19:17:12] session=demo-user
+  Q: Is my account frozen? I can't log in.
+  A: I don't know based on the available information. This query is being escalated to a human representative for further assistance regarding your account access issues.
+[2026-08-30T19:17:13] session=demo-user
+  Q: How much cash can I take out per day from a machine?
+  A: I don't know based on the available information. I recommend checking your account details in the official banking app or contacting a human representative for assistance with your specific ATM withdrawal limit.
+[2026-08-30T19:17:14] session=demo-user
+  Q: I want to dispute a charge and also transfer money to my sister
+  A: To address your requests:
+
+1. **Dispute a Charge**: Please review your statement for the transaction details and contact our customer service team through the official banking app or by phone. They will guide you through the dispute process.
+
+2. **Transfer Money to Your Sister**: I cannot assist with executing or approving money transfers. Please use the official banking app or contact a human representative for help with this transaction.
+
+If you need further assistance, please reach out to a human representative.
