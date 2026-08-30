@@ -28,7 +28,7 @@ cd phase2_baseline_agent
 python agent_v1_baseline.py
 ```
 
-![Phase 2 — baseline demo terminal output](docs/evidence/phase2_terminal.png)
+![Phase 2 — baseline demo terminal output](evidence/phase2_terminal.png)
 
 - [ ] Screenshot taken
 - [ ] Shows both deliberate limitation cases (paraphrase miss, dropped multi-part intent)
@@ -45,7 +45,7 @@ cd phase3_llm_agent
 python agent_v2_llm.py
 ```
 
-![Phase 3 — prompt comparison terminal output](docs/evidence/phase3_terminal.png)
+![Phase 3 — prompt comparison terminal output](evidence/phase3_terminal.png)
 
 - [ ] Screenshot taken
 - [ ] `prompt_comparison.md` matches what's shown in the screenshot (no hand-edited outputs)
@@ -63,7 +63,7 @@ cd phase4_rag
 python agent_v3_rag.py
 ```
 
-![Phase 4 — RAG retrieval terminal output](docs/evidence/phase4_terminal.png)
+![Phase 4 — RAG retrieval terminal output](evidence/phase4_terminal.png)
 
 - [ ] Screenshot taken
 - [ ] Output visibly cites a source document (e.g. `dicgc_faqs.md`)
@@ -82,8 +82,8 @@ cd phase5_tools_mcp
 python agent_v4_tools.py
 ```
 
-![Phase 5 — MCP tool trace terminal output](docs/evidence/phase5_terminal.png)
-![Phase 5 — MCP tool trace terminal output safety escalation](docs/evidence/phase5_terminal_2.png)
+![Phase 5 — MCP tool trace terminal output](evidence/phase5_terminal.png)
+![Phase 5 — MCP tool trace terminal output safety escalation](evidence/phase5_terminal_2.png)
 
 - [ ] Screenshot taken
 - [ ] `phase5_tool_trace.log` referenced/attached alongside the screenshot
@@ -103,8 +103,8 @@ cd phase6_memory_planning
 python agent_v5_memory.py
 ```
 
-![Phase 6 — memory conversation terminal output](docs/evidence/phase6_terminal_1.png)
-![Phase 6 — memory conversation terminal output after memory reset](docs/evidence/phase6_terminal_2.png)
+![Phase 6 — memory conversation terminal output](evidence/phase6_terminal_1.png)
+![Phase 6 — memory conversation terminal output after memory reset](evidence/phase6_terminal_2.png)
 
 - [ ] Screenshot taken
 - [ ] Shows the before/after pair around the "forget my account" reset
@@ -123,9 +123,9 @@ cd phase7_adaptive
 python agent_v6_adaptive.py
 ```
 
-![Phase 7 — adaptive behaviour terminal output](docs/evidence/phase7_terminal_1.png)
+![Phase 7 — adaptive behaviour terminal output](evidence/phase7_terminal_1.png)
 
-![Phase 7 — adaptive behaviour terminal output](docs/evidence/phase7_terminal_2.png)
+![Phase 7 — adaptive behaviour terminal output](evidence/phase7_terminal_2.png)
 
 - [ ] Screenshot taken
 - [ ] Shows the same question answered differently before vs. after the feedback threshold is crossed
@@ -142,7 +142,9 @@ cd phase8_deployment
 python agent_final.py --demo
 ```
 
-![Phase 8 — deployment demo terminal output](docs/evidence/phase8_demo_terminal.png)
+![Phase 8 — deployment demo terminal output](evidence/phase8_terminal_1.png)
+![Phase 8 — deployment demo terminal output uvicorn server](evidence/phase8_terminal_2.png)
+
 
 ### 8b. Running API service
 
@@ -153,13 +155,13 @@ curl -X POST http://localhost:8000/ask \
   -d '{"question": "What is the daily ATM withdrawal limit?", "session_id": "demo"}'
 ```
 
-![Phase 8 — API request/response](docs/evidence/phase8_api_curl.png)
+![Phase 8 — API request/response](evidence/phase8_api_curl.png)
 
-### 8c. Deployed instance (Hugging Face Spaces / Streamlit Cloud / cloud VM)
+### 8c. Deployed instance (Hugging Face Spaces / Streamlit Cloud / cloud VM/ Local)
 
-![Phase 8 — live deployed app](docs/evidence/phase8_deployed_live.png)
+![Phase 8 — live deployed app](evidence/phase8_deployed_live.png)
 
-*Deployment URL:* `____________________`
+*Deployment URL:* `http://localhost:8080/ask`
 
 ### 8d. Intentional error → graceful handling
 
@@ -167,7 +169,10 @@ curl -X POST http://localhost:8000/ask \
 FORCE_DEPLOYMENT_ERROR=1 python agent_final.py --demo
 ```
 
-![Phase 8 — forced error, graceful fallback message](docs/evidence/phase8_forced_error_terminal.png)
+![Phase 8 — forced error, graceful fallback message](evidence/phase8_forced_error_terminal_1.png)
+![Phase 8 — forced error, graceful fallback message](evidence/phase8_forced_error_terminal_2.png)
+![Phase 8 — forced error, graceful fallback message](evidence/phase8_forced_error_terminal_3.png)
+![Phase 8 — forced error, graceful fallback message langsmith output](evidence/phase8_forced_error_terminal_langsmith.png)
 
 - [ ] Local demo screenshot taken
 - [ ] API curl screenshot taken
@@ -188,7 +193,7 @@ cd phase9_evaluation
 python run_evaluation.py
 ```
 
-![Phase 9 — evaluation run terminal output](docs/evidence/phase9_terminal.png)
+![Phase 9 — evaluation run terminal output](evidence/phase9_terminal.png)
 
 - [ ] Screenshot taken
 - [ ] Numbers in the screenshot match what's written in `evaluation_report.md`
@@ -206,7 +211,7 @@ whatever you set `LANGCHAIN_PROJECT` to) for these.
 A trace showing a full request — system prompt, tool call(s), and final
 response — with visible latency.
 
-![LangSmith — normal run trace](docs/evidence/langsmith_normal_trace.png)
+![LangSmith — normal run trace](evidence/langsmith_normal_trace.png)
 
 ### B. Intentional error, captured
 
@@ -214,7 +219,7 @@ The trace corresponding to the `FORCE_DEPLOYMENT_ERROR=1` run from Phase
 8d above — should show the raised exception and that it was caught rather
 than crashing the service.
 
-![LangSmith — forced error trace](docs/evidence/langsmith_error_trace.png)
+![LangSmith — forced error trace](evidence/langsmith_error_trace.png)
 
 ### C. (Optional) Latency/error-rate view
 
@@ -222,7 +227,7 @@ If your LangSmith plan surfaces a project-level chart, a screenshot of
 latency or error-rate trends across your evaluation run adds useful
 context to Phase 9's report.
 
-![LangSmith — latency/error trend (optional)](docs/evidence/langsmith_trends.png)
+![LangSmith — latency/error trend (optional)](evidence/langsmith_trends.png)
 
 - [ ] Normal-run trace captured
 - [ ] Forced-error trace captured
@@ -232,7 +237,7 @@ context to Phase 9's report.
 
 ## GitHub Repository Evidence
 
-![GitHub — commit history showing phase-by-phase progression](docs/evidence/github_commit_history.png)
+![GitHub — commit history showing phase-by-phase progression](evidence/github_commit_history.png)
 
 - [ ] Commit history screenshot taken, showing incremental commits (not one bulk commit)
 - [ ] Repo is public or shared with the grader as required
