@@ -221,18 +221,6 @@ than crashing the service.
 
 ![LangSmith — forced error trace](evidence/langsmith_error_trace.png)
 
-### C. (Optional) Latency/error-rate view
-
-If your LangSmith plan surfaces a project-level chart, a screenshot of
-latency or error-rate trends across your evaluation run adds useful
-context to Phase 9's report.
-
-![LangSmith — latency/error trend (optional)](evidence/langsmith_trends.png)
-
-- [ ] Normal-run trace captured
-- [ ] Forced-error trace captured
-- [ ] (Optional) trend chart captured
-
 ---
 
 ## GitHub Repository Evidence
