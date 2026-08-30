@@ -1,0 +1,7 @@
+{"timestamp": "2026-08-30T09:25:23", "intent": "atm_limit", "helpful": true, "prompt_variant": "baseline", "question": "What's the daily ATM withdrawal limit?"}
+{"timestamp": "2026-08-30T09:25:55", "intent": "general", "helpful": true, "prompt_variant": "baseline", "question": "what is the current balance?"}
+{"timestamp": "2026-08-30T15:23:00", "intent": "atm_limit", "helpful": true, "prompt_variant": "baseline", "question": "What is my ATM limit?"}
+{"timestamp": "2026-08-30T15:23:23", "intent": "general", "helpful": false, "prompt_variant": "baseline", "question": "What is my account number?"}
+{"timestamp": "2026-08-30T19:42:42", "intent": "general", "helpful": false, "prompt_variant": "baseline", "question": "Can you help me with my banking issue?"}
+{"timestamp": "2026-08-30T19:42:59", "intent": "general", "helpful": false, "prompt_variant": "adaptive", "question": "Can you help me with my banking issue?"}
+{"timestamp": "2026-08-30T19:43:20", "intent": "general", "helpful": true, "prompt_variant": "adaptive", "question": "Can you help me with my banking issue?"}
